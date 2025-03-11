@@ -26,7 +26,7 @@ const NavBar = () => {
   return (
     <nav>
     
-        <div className='bg-white fixed max-w-full max-sm:w-[375px] flex max-sm:justify-between justify-center top-0 left-0 w-full h-[80px]  items-center  px-10 shadow-md z-50'>
+        <div className='bg-white fixed max-w-full max-sm:w-screen flex max-sm:justify-between  justify-center top-0 left-0 md:w-full h-[80px]  items-center  px-10 shadow-md z-50'>
             {/* left section logo */}
             
               <div className='text-[25px] flex '>
@@ -81,7 +81,7 @@ const NavBar = () => {
             </div>
 
             {/* mid section */}
-            <div className='m-20 max-sm:hidden  '>
+            <div className='m-20 max-sm:hidden  md:block'>
               <ul className='flex gap-4  font-display font-bold text-[15px]'>
                 <li>
                 </li>
